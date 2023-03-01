@@ -1,0 +1,3 @@
+[submodule "libs/moonblob"]
+	path = libs/moonblob
+	url = https://github.com/EngineerSmith/moonblob
