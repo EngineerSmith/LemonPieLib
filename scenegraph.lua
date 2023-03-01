@@ -10,7 +10,7 @@ local insert = table.insert
 local node = { }
 node.__index = node
 
-node.new = function(data)
+node.new = function(data) -- NOTE, nodes do not have ownership of bones just holds their id
   local newNode = setmetatable({
       children = { },
       data = data,
