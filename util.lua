@@ -8,7 +8,7 @@ util.validate = {
 
 util.validate.validateString =  function(str, option)
   if type(str) ~= "string" then return "Given value for string is not string" end
-  if str == "" then return "String is empty" end
+  if str == "" then return "Given string is empty, and so not valid." end
 
   option = option or "AlphanumericAndPuncuation"
 
